@@ -1,8 +1,4 @@
 cd C:\Users\SSovec\Documents\deepseek-harness\default-workspace\telegram-mcp
-git init
-git add .
-git commit -m "Telegram MCP server with Dockerfile for Railway"
-git branch -M main
-# Вставьте СВОЮ ссылку на репозиторий:
-git remote add origin https://github.com/SSovec123/telegram-mcp.git
-git push -u origin main --force
+git add Dockerfile
+git commit -m "Fix: use mcp-telegram package instead of non-existent @modelcontextprotocol/server-telegram"
+git push origin main --force
