@@ -1,7 +1,4 @@
-FROM node:20-alpine
-WORKDIR /app
-RUN npm install -g @modelcontextprotocol/server-telegram
-ENV TELEGRAM_BOT_TOKEN=""
-ENV TELEGRAM_CHAT_ID=""
-EXPOSE 3000
-CMD ["npx", "@modelcontextprotocol/server-telegram"]
+cd C:\Users\SSovec\Documents\deepseek-harness\default-workspace\telegram-mcp
+git add Dockerfile
+git commit -m "Fix: use mcp-telegram package"
+git push origin main --force
