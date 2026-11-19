@@ -1,8 +1,8 @@
 cd C:\Users\SSovec\Documents\deepseek-harness\default-workspace\telegram-mcp
 git init
 git add .
-git commit -m "Telegram MCP server for DSH"
+git commit -m "Telegram MCP server with Dockerfile for Railway"
 git branch -M main
-# === ВСТАВЬТЕ СВОЮ ССЫЛКУ НА РЕПО НИЖЕ ===
+# Вставьте СВОЮ ссылку на репозиторий:
 git remote add origin https://github.com/SSovec123/telegram-mcp.git
-git push -u origin main
+git push -u origin main --force
